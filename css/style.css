@@ -1,0 +1,341 @@
+    /* Base Styling */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #444;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+header {
+    height: auto;
+    width: 100%;
+    
+}
+
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+article {
+    font-size: 10px;
+    width: 100%;
+    background-image: url(../images/laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+section{
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
+    font-family: 'Alegreya', serif;
+    letter-spacing: 6px;
+    color: rgb(7, 7, 7);
+    margin: 0 auto;
+    animation-name: h1;
+    animation-duration: 2s;
+    position: relative;
+
+}
+
+h2 {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+    text-decoration: underline;
+    font-family: 'Rokkitt', serif;
+    letter-spacing: 3px;
+}
+
+nav{
+    border-bottom: 3px solid;
+}
+
+main{
+    border-bottom: 3px solid;
+    
+}
+
+footer{
+    height: 8vh;
+    width: auto;
+    background-color: red;
+    padding-top: 20px;
+    font-size: 18px;
+    font-family: 'Cabin Condensed', sans-serif;
+}
+
+td{
+    color: white;
+}
+    /* End of base Styling */
+    /* Starting of ID and Class Styling */
+.maincontent {
+    display: inline-block;
+    height: auto;
+    width: 800px;
+    margin-left: 360px;
+    font-size: 14px;
+    padding: 5px;
+    font-family: 'Cabin Condensed', sans-serif;
+}
+
+.container ul {
+    list-style: none;
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+.container li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 30px;
+    font-family: 'Cabin Condensed', sans-serif;
+    color: white;
+  }
+
+
+#about {
+    border: solid 1px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 750px;
+    background-color: seashell;
+}
+
+#education{
+    border: solid 1px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 750px;
+    background-color: seashell;
+}
+
+#work{
+    border: solid 1px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 750px;
+    background-color: seashell;
+}
+
+#skill{
+    border: solid 1px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 750px;
+    background-color: seashell;
+    margin-bottom: 20px;
+}
+
+#contact{
+    background-color: #444;
+}
+
+.footercontent table{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.badges{
+    background-color: #444;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+    /* End of ID and Class Styling */
+    /* Hover styling */
+nav a:hover {
+    background-color: rgb(149, 196, 191);
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    size: 20px;
+}
+    /* End of hover styling */
+    /* Icon Styling */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.6;
+    color: aqua;
+}
+    /* End of Icon styling */
+/* Media queries for Tablet and Mobile */
+
+@media only screen and (max-width: 1366px) {
+
+.maincontent {
+        display: inline-block;
+        height: auto;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Cabin Condensed', sans-serif;
+        margin-left: 15%;
+}
+
+#about {
+    border: solid 1px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 650px;
+    background-color: seashell;
+}
+
+#education{
+    border: solid 1px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 650px;
+    background-color: seashell;
+}
+
+#work{
+    border: solid 1px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 650px;
+    background-color: seashell;
+}
+
+#skill{
+    border: solid 1px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 650px;
+    background-color: seashell;
+    margin-bottom: 20px;
+
+}
+
+}
+
+    /* End of First media query */
+    /* Start of Second Media Query */
+@media only screen and (max-width: 865px){
+
+.maincontent {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    padding: 5px;
+    font-family: 'Cabin Condensed', sans-serif;
+    margin-left: 8%;
+}
+}
+    /* End of Second Media Query */
+    /* Start of Third Media Query */
+@media only screen and (max-width: 768px) {
+
+.maincontent {
+        display: inline-block;
+        height: auto;
+        width: auto;
+        margin: auto;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Cabin Condensed', sans-serif;
+}
+
+#about {
+    border: solid 1px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: auto;
+    background-color: seashell;
+}
+
+#education{
+    border: solid 1px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: auto;
+    background-color: seashell;
+}
+
+#work{
+    border: solid 1px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: auto;
+    background-color: seashell;
+}
+
+#skill{
+    border: solid 1px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: auto;
+    background-color: seashell;
+    margin-bottom: 20px;
+}
+
+.container li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: auto;
+    display: inline-block;
+    margin-right: auto;
+    margin-top: auto;
+    font-family: 'Cabin Condensed', sans-serif;
+    padding-left: 5%;
+}
+
+}
+    /* End of Third Media Query */
+    /* End of Media Queries */
+    /* Keyframe for animation */
+@keyframes h1{
+    75% {bottom: 1000px;}
+    100% {bottom: 0px;} 
+}
